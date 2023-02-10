@@ -10,7 +10,7 @@ Create database SIA
 3-Error de Roslyn -> ejecutar en Consola PM el siguiente comando:
 
 ```sh
--Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
 ```
 
 4-Una vez abierta la solución hacer un restore package de la misma.
