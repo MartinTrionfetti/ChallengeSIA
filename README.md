@@ -1,4 +1,5 @@
 # Configurar setup
+Back:
 1-Crear la base de datos con el siguiente comando:
 
 ```sh
@@ -14,6 +15,10 @@ Create database SIA
 
 4-Una vez abierta la solución hacer un restore package de la misma.
 5-Compilar y ejecutar
+
+Front:
+1- Ejecutar NPM i
+2- Ejecutar npm start
 
 ## Features
 - Alta, baja, modificación y listado de productos.
