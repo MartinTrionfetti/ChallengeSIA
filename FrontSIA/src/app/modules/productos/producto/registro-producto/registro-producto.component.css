@@ -1,0 +1,12 @@
+.alinear-grupo{
+    display:flex;
+    align-items:center;
+}
+.espacio-fila{
+    margin-bottom:10px;
+}
+
+.center-img{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,7 @@
+.alinear-grupo{
+    display:flex;
+    align-items:center;
+}
+.espacio-fila{
+    margin-bottom:10px;
+}

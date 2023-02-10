@@ -1,0 +1,22 @@
+<div class="container" [formGroup]="formCategoria" >
+    <div class="row espacio-fila">
+        <div class="col-3">
+            <label class="form-label">Nombre</label>
+        </div>
+        <div class="col-9">
+            <input class="form-control" 
+                   type="text" 
+                   placeholder="Nombre" 
+                   maxlength="100"
+                   formControlName="Name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-7">
+        </div>
+        <div class="col-3 alinear-grupo">
+            <button type="button" class="btn btn-secondary" style="margin-right: 10px;" (click)="onCerrar()">Cancelar</button>
+            <button type="button" class="btn btn-primary" (click)="onGuardar()">Guardar</button>
+        </div>
+    </div>
+</div>
